@@ -1,5 +1,5 @@
 <?php
-//fr_FR
+//fr_FR 
 $lang_title = "Streamer Twitch";
 $lang_donate = "Donation";
 $lang_isoffline = "n'est pas en live";

@@ -17,11 +17,11 @@ $status = $channels['status'];
 $logo = $channels['logo'];
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html>
 	<head>
 		<meta http-equiv= "content-type" content= "text/html; charset=iso-8859-1" >
 		<meta charset="UTF-8">
-		<meta name="Content-Language" content="fr-FR" /> 
+		<meta name="Content-Language" content="<? echo $language; ?>" /> 
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title><? echo $display_name; ?> | <? echo $lang_title; ?></title>

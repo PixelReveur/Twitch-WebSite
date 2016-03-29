@@ -25,7 +25,7 @@ $logo = $channels['logo'];
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title><? echo $display_name; ?> | <? echo $lang_title; ?></title>
-		<meta name="description" content="">
+		<meta name="description" content="<? if ($_id) { echo $status; } ?>">
 		<meta name="keywords" content="streamer,twitch,live,<? echo $display_name; ?>">
 		<meta name="author" content="PixelReveur">
 		<link href="css/style.php" rel="stylesheet" type="text/css" media="all">
@@ -74,11 +74,7 @@ if ($_id) {
 			</div>
 
 			<div class="Twitch_Titre" id="Twitch_Titre">
-<?
-if ($_id) {
-	echo $status;
-}
-?>
+<? if ($_id) { echo $status; } ?>
 			</div>
 
 			<a href="https://www.twitch.tv/<? echo $channel; ?>">

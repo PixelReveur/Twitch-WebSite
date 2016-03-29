@@ -1,3 +1,3 @@
 # Twitch-WebSite
 
-Ceci est un site pour les streamers Twitch.
+Ceci est un site open source pour les streamers Twitch.

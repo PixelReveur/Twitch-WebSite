@@ -7,7 +7,7 @@
 	$network_mail = "";
 	$network_donnate = "https://www.twitchalerts.com/donate/pixelreveur";
 	
-	$language = "us"; // "fr" or "us"
+	$language = "en_US"; // "fr_FR" or "en_US"
 	
 	$round_avatar = "1"; // "1" or "0"
 	$color = "#64ff64";

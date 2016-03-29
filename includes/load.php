@@ -18,7 +18,7 @@ $logo = $channels['logo'];
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html>
 	<head>
 		<meta http-equiv= "content-type" content= "text/html; charset=iso-8859-1" >
 		<meta charset="UTF-8">

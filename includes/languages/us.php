@@ -1,4 +1,6 @@
 <?php
+//us
+$lang_title = "Twitch Streamer";
 $lang_donate = "Donation";
 $lang_isoffline = "is offline";
 $lang_playing1 = "playing";

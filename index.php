@@ -26,7 +26,7 @@ $logo = $channels['logo'];
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title><? echo $display_name; ?> | <? echo $lang_title; ?></title>
 		<meta name="description" content="">
-		<meta name="keywords" content="streamer,twitch,live,<? echo $channel; ?>">
+		<meta name="keywords" content="streamer,twitch,live,<? echo $display_name; ?>">
 		<meta name="author" content="PixelReveur">
 		<link href="css/style.php" rel="stylesheet" type="text/css" media="all">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">

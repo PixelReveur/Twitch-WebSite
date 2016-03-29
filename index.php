@@ -24,7 +24,7 @@ $logo = $channels['logo'];
 		<meta name="Content-Language" content="fr-FR" /> 
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title><? echo $display_name; ?> | Twitch Streamer</title>
+		<title><? echo $display_name; ?> | <? echo $lang_title; ?></title>
 		<meta name="description" content="">
 		<meta name="keywords" content="streamer,twitch,live,<? echo $channel; ?>">
 		<meta name="author" content="PixelReveur">
@@ -34,7 +34,7 @@ $logo = $channels['logo'];
 	</head>
 	<body onload="show_data()">
 
-		<iframe class="Twitch_Frame" frameborder="0" width="1980px" height="1024px" title="Vidéo Twitch" src="https://player.twitch.tv/?channel=<? echo $channel; ?>&auto_play=true&start_volume=0&muted=1"></iframe>
+		<iframe class="Twitch_Frame" frameborder="0" width="1980px" height="1024px" title="VidÃ©o Twitch" src="https://player.twitch.tv/?channel=<? echo $channel; ?>&auto_play=true&start_volume=0&muted=1"></iframe>
 		
 		<div class="Black_Background"></div>
 		

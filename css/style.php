@@ -38,9 +38,9 @@ transition-duration: 0.5s;
 .Twitch_Frame {
 	position: fixed;
 	z-index: -10;
-	width: 300%;
+	width: 500%;
 	height: 130%;
-	left: -100%;
+	left: -200%;
 	top: -15%;
 }
 

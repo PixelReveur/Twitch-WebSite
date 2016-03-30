@@ -29,7 +29,15 @@ $logo = $channels['logo'];
 <div class="Twitch_Statut" id="Twitch_Statut">
 <?
 if ($_id) {
-	echo $display_name." ".$lang_playing1." ".$game." ".$lang_playing2." ".$viewers." ".$lang_playing3;
+	echo $display_name;
+	if ($display_game == 1 and $game != "Creative"){
+		echo " ".$lang_playing1." ".$game;
+	} else {
+		echo " ".$lang_isonline;
+	}
+	if ($display_viewers == 1){
+		echo " ".$lang_playing2." ".$viewers." ".$lang_playing3;
+	}	
 } else {
 	echo $display_name." ".$lang_isoffline;
 }

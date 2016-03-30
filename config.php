@@ -1,5 +1,5 @@
 <?php
-	$channel = "PixelReveur";
+	$channel = "pixelreveur";
 	
 	$network_twitter = "https://twitter.com/PixelReveur";
 	$network_youtube = "https://www.youtube.com/user/PixelReveur";
@@ -9,6 +9,10 @@
 	
 	$language = "en_US"; // "fr_FR" or "en_US"
 	
+	$display_game = "1"; // "1" or "0"
+	$display_viewers = "1"; // "1" or "0"
+	
 	$round_avatar = "1"; // "1" or "0"
+	
 	$color = "#64ff64";
 ?>

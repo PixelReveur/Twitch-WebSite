@@ -22,8 +22,6 @@ $logo = $channels['logo'];
 		<meta http-equiv= "content-type" content= "text/html; charset=uft-8" >
 		<meta charset="UTF-8">
 		<meta name="Content-Language" content="<? echo $language; ?>" /> 
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title><? echo $display_name; ?> | <? echo $lang_title; ?></title>
 		<meta name="description" content="<? if ($_id) { echo $status; } ?>">
 		<meta name="keywords" content="streamer,twitch,live,<? echo $display_name; ?>">

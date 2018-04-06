@@ -9,8 +9,16 @@
     src: url('fonts/GeosansLight.ttf');
 }
 
+html {
+  margin:0;
+  padding:0;
+  background: #000000 url(<?php echo $replacement_background; ?>) no-repeat center center fixed; 
+  background-size: cover; 
+}
+
+
 body {
-	background:#000000;
+	background-color: #000000;
 	font-family: "GeoSans_Light";
 	font-size:11px;
 	color:#FFFFFF;
@@ -30,7 +38,7 @@ li {
 	font-size:20px;
 }
 li a:hover {
-color: <? echo $color; ?>;
+color: <?php echo $color; ?>;
 transition-duration: 0.5s;
 }
 
@@ -42,6 +50,14 @@ transition-duration: 0.5s;
 	height: 130%;
 	left: -200%;
 	top: -15%;
+}
+
+.Offline_Background {
+	position: fixed;
+	z-index: -10;
+	min-width: 110%;
+	min-height: 110%;
+	top: 0;
 }
 
 
@@ -135,6 +151,6 @@ transition-duration: 0.5s;
 	transition-duration: 0.5s;
 }
 .Twitch_Lien:hover {
-	background: <? echo $color; ?>;
+	background: <?php echo $color; ?>;
 	font-weight: bold;	
 }

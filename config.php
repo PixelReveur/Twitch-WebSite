@@ -1,13 +1,16 @@
 <?php
-	$channel = "pixelreveur";
+	$channel = "";
 	
-	$network_twitter = "https://twitter.com/PixelReveur";
-	$network_youtube = "https://www.youtube.com/user/PixelReveur";
-	$network_facebook = "https://www.facebook.com/PixelReveur";
+	$client_id = ""; // Client ID from Twitch API
+	
+	// Links
+	$network_twitter = "";
+	$network_youtube = "";
+	$network_facebook = "";
 	$network_mail = "";
-	$network_donnate = "https://www.twitchalerts.com/donate/pixelreveur";
+	$network_donnate = "";
 	
-	$language = "en_US"; // "fr_FR" or "en_US"
+	$language = "fr_FR"; // "fr_FR" or "en_US"
 	
 	$display_game = "1"; // "1" or "0"
 	$display_viewers = "1"; // "1" or "0"
@@ -15,4 +18,5 @@
 	$round_avatar = "1"; // "1" or "0"
 	
 	$color = "#64ff64";
+	$replacement_background = "../images/replacement_background.jpg"; // if channel is offline or content is mature
 ?>

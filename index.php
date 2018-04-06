@@ -92,9 +92,11 @@ if ($_id) {
 <?php if ($_id) { echo $status; } ?>
 			</div>
 
-			<a href="https://www.twitch.tv/<?php echo $channel; ?>">
-				<div class="Twitch_Lien"><?php echo $lang_viewchannel; ?></div>
-			</a>
+				<div class="Twitch_Lien">
+				<a href="https://www.twitch.tv/<?php echo $channel; ?>">
+				<div style="width: 100%; height: 100%;"><?php echo $lang_viewchannel; ?></div>
+				</a>
+				</div>
 		
 		</div>	
 		<script type="text/javascript" src="scripts/jquery.js"></script>

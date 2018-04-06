@@ -18,5 +18,5 @@
 	$round_avatar = "1"; // "1" or "0"
 	
 	$color = "#64ff64";
-	$replacement_background = "../images/replacement_background.jpg"; // If channel is offline or content is mature
+	$replacement_background = "../images/replacement_background.jpg"; // If channel is offline (or if content is mature)
 ?>
